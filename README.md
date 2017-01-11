@@ -15,3 +15,6 @@
 ```
 docker run -v `pwd``:/home/jovyan/work -p 8888:8888 -it tanztan/python-ml
 ```
+
+### (Optional)
+If you could not setup your environment, you maybe use https://try.jupyter.org/ as your Jupyter env.
