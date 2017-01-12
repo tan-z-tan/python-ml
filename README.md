@@ -13,7 +13,7 @@
 
 #### Run docker
 ```
-docker run -v `pwd``:/home/jovyan/work -p 8888:8888 -it tanztan/python-ml
+docker run -v `pwd`:/home/jovyan/work -p 8888:8888 -it tanztan/python-ml
 ```
 
 ### (Optional)
