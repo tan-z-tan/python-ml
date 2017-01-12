@@ -3,6 +3,10 @@
 
 ## Setup
 
+#### Prerequisites
+If necessary, install docker.
+https://docs.docker.com/docker-for-mac/
+
 #### Clone this repogitory
 `git clone git@github.com:tan-z-tan/python-ml.git`
 
