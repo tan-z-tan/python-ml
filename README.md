@@ -10,7 +10,7 @@ https://docs.docker.com/docker-for-mac/
 #### Clone this repogitory
 `git clone git@github.com:tan-z-tan/python-ml.git`
 
-`cd python-ml.git`
+`cd python-ml`
 
 #### Pull Docker image
 `docker pull tanztan/python-ml`
