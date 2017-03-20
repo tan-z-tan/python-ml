@@ -3,3 +3,6 @@ scipy
 scikit-learn
 matplotlib
 pandas
+pillow
+xgboost
+seaborn
