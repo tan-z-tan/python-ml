@@ -1,5 +1,6 @@
-# Jupyterで触れながら学ぶ機械学習速習会
+# [WORK IN PROGRESS]Jupyterで触れながら学ぶ機械学習速習会
 
+まだ内容がFixしていないため、変わる可能性があります。
 
 ## Setup
 
