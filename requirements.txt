@@ -4,5 +4,6 @@ scikit-learn
 matplotlib
 pandas
 pillow
+pydotplus
 xgboost
 seaborn

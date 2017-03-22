@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     unzip \
     libsm6 \
     pandoc \
+    graphviz \
     && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
