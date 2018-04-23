@@ -3,7 +3,11 @@ scipy
 scikit-learn
 matplotlib
 pandas
+pandas-gbq
 pillow
 pydotplus
 xgboost
+tensorflow
+gensim
 seaborn
+natto-py
