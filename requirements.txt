@@ -11,3 +11,4 @@ tensorflow
 gensim
 seaborn
 natto-py
+google-api-python-client
