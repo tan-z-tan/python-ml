@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook
+FROM jupyter/scipy-notebook
 MAINTAINER tanji.makoto@gmail.com
 
 USER root
@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     wget \
     g++ \
     libpq-dev \
+    curl \
     && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -35,12 +36,12 @@ RUN wget -O mecab-ipadic-2.7.0-20070801.tar.gz "https://drive.google.com/uc?expo
 
 #  App
 #-----------------------------------------------
-WORKDIR /app
+USER jovyan
+
+WORKDIR /home/jovyan
 
 COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
-
-USER $NB_USER
 
 CMD jupyter-notebook
